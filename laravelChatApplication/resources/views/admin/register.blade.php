@@ -34,7 +34,7 @@
                             <div class="brand-logo">
                                 <img src="/images/logo.svg" alt="logo">
                             </div>
-                            <h4>New here?</h4>
+                            <h4>New Admin here? Register Yourself</h4>
                             <h6 class="font-weight-light">Signing up is easy. It only takes a few steps</h6>
                             @if (session('success'))
                             <div>{{ session('success') }}</div>
@@ -53,7 +53,7 @@
         <label for="password">Password (min. 8 characters)</label>
         <input type="password" class="form-control" id="password" name="password" required>
     </div>
-    
+
     <button type="submit" class="btn btn-primary">Register</button>
 </form>
 
@@ -75,7 +75,7 @@
     <!-- Toastr JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
-   
+
     <!-- container-scroller -->
     <!-- plugins:js -->
     <script src="/vendors/js/vendor.bundle.base.js"></script>

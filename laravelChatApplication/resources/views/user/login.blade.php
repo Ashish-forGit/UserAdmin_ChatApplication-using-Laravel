@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Skydash User Login</title>
     <link rel="stylesheet" href="/vendors/feather/feather.css">
     <link rel="stylesheet" href="/vendors/ti-icons/css/themify-icons.css">
     <link rel="stylesheet" href="/vendors/css/vendor.bundle.base.css">
@@ -38,7 +38,7 @@
                                     {{ session('success') }}
                                 </div>
                             @endif
-                            <h4>Hello! let's get started</h4>
+                            <h4>Hello! Users let's get started</h4>
                             <h6 class="font-weight-light">Sign in to continue.</h6>
 
                             @if ($errors->any())
@@ -87,7 +87,7 @@
     <!-- Toastr JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
-   
+
     <!-- container-scroller -->
     <!-- plugins:js -->
     <script src="/vendors/js/vendor.bundle.base.js"></script>

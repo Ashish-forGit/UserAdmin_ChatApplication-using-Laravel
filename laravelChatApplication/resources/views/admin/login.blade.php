@@ -38,7 +38,7 @@
                                     {{ session('success') }}
                                 </div>
                             @endif
-                            <h4>Hello! let's get started</h4>
+                            <h4>Hello! Admin </h4>
                             <h6 class="font-weight-light">Sign in to continue.</h6>
 
                             @if ($errors->any())
@@ -87,7 +87,7 @@
     <!-- Toastr JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
-   
+
     <!-- container-scroller -->
     <!-- plugins:js -->
     <script src="/vendors/js/vendor.bundle.base.js"></script>

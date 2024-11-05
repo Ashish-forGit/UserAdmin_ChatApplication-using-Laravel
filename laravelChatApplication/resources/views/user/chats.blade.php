@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Skydash Admin</title>
+    <title>Skydash User</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -400,10 +400,10 @@
         let messageHtml = `
             <div class="chat-message receiver"> <!-- Left alignment for received messages -->
                 <div class="message-avatar">
-                    <img src="${senderImage}" class="rounded-circle avatar" alt="${senderName} Avatar">
+                    <img src="${senderImage}" class="rounded-circle avatar" alt="${} Avatar">
                 </div>
                 <div class="message-content">
-                    <p><strong>${senderName}:</strong> ${message}</p>
+                    <p><strong>${senderName} :</strong> ${message}</p>
                     <div class="timestamp">${messageTime}</div>
                 </div>
             </div>`;
@@ -447,7 +447,7 @@ $(document).ready(function() {
                     let messageHtml = `
                         <div class="chat-message ${isSender ? 'sender' : 'receiver'}">
                             <div class="message-avatar">
-                                <img src="${userAvatar}" class="rounded-circle avatar" alt="User Avatar">
+                                <img src="${userAvatar}" class="rounded-circle avatar" alt="">
                             </div>
                             <div class="message-content">
                                 <p><strong>${userName}:</strong> ${message.message}</p>
@@ -505,7 +505,7 @@ $(document).ready(function() {
                 let messageHtml = `
                     <div class="chat-message sender">
                         <div class="message-avatar">
-                            <img src="${userAvatar}" class="rounded-circle avatar" alt="User Avatar">
+                            <img src="${userAvatar}" class="rounded-circle avatar" alt="">
                         </div>
                         <div class="message-content">
                             <p><strong>${userName}:</strong> ${message}</p>
