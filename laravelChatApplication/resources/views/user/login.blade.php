@@ -33,7 +33,8 @@
                         <div class="auth-form-light text-left py-5 px-4 px-sm-5">
                             <div class="brand-logo">
                                 <img src="/images/logo.svg" alt="logo">
-                            </div> @if (session('success'))
+                            </div>
+                            @if (session('success'))
                                 <div class="alert alert-success">
                                     {{ session('success') }}
                                 </div>
@@ -61,17 +62,22 @@
                                     <input type="password" class="form-control" id="password" name="password" required>
                                 </div>
                                 <button type="submit" class="btn btn-primary">Login</button>
+
                             </form>
+
+                            <div class="text-center mt-4">
+                                <a href="{{ route('admin.login') }}" class="btn btn-success" target="_blank">If Admin? Login Here</a>
+                            </div>
 
 
                             <div class="text-center mt-4 font-weight-light">
-    Don't have an account? <a href="/user/register" class="text-primary">Create</a>
-</div>
-<div class="text-center mt-2">
-    <a   class="text-primary">
-        <i class="fas fa-lock"></i> Forgot Password?
-    </a>
-</div>
+                                Don't have an account? <a href="/user/register" class="text-primary">Create</a>
+                            </div>
+                            <div class="text-center mt-2">
+                                <a class="text-primary">
+                                    <i class="fas fa-lock"></i> Forgot Password?
+                                </a>
+                            </div>
 
                         </div>
                     </div>

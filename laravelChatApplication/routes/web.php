@@ -6,7 +6,7 @@ use App\Http\Controllers\AdminsController;
 use App\Http\Controllers\ChatsController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('user.login');
 });
 
 
