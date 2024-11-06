@@ -491,7 +491,7 @@
             let messageHtml = `
                 <div class="chat-message">
                     <div class="message-avatar">
-                        <img src="${senderImage}" class="rounded-circle" alt="${} Avatar">
+                        <img src="${senderImage}" class="rounded-circle" alt="${senderName} Avatar">
                     </div>
                     <div class="message-content">
                         <p><strong>${senderName}:</strong> ${messageText}</p>
@@ -551,7 +551,7 @@
                     let messageHtml = `
                         <div class="chat-message ${isSender ? 'sender' : 'receiver'}">
                             <div class="message-avatar">
-                                <img src="${userAvatar}" class="rounded-circle avatar" alt="">
+                                <img src="${userAvatar}" class="rounded-circle avatar" alt="User Avatar">
                             </div>
                             <div class="message-content">
                                 <p><strong>${userName}:</strong> ${message.message}</p>
@@ -613,7 +613,7 @@
                     let messageHtml = `
                         <div class="chat-message sender">
                             <div class="message-avatar">
-                                <img src="${userAvatar}" class="rounded-circle avatar" alt="">
+                                <img src="${userAvatar}" class="rounded-circle avatar" alt="User Avatar">
                             </div>
                             <div class="message-content">
                                 <p><strong>${userName}:</strong> ${message}</p>
