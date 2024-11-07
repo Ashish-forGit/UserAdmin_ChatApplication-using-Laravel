@@ -95,7 +95,7 @@
                                                     <p><strong>Name:</strong> {{ $LoggedUserInfo->name }}</p>
                                                     <p><strong>Email:</strong> {{ $LoggedUserInfo->email }}</p>
                                                     <p><strong>Phone:</strong> {{ $LoggedUserInfo->phone_number }}</p>
-                                                    <p><strong>Phone:</strong> {{ $LoggedUserInfo->role }}</p>
+                                                    <p><strong>Role:</strong> {{ $LoggedUserInfo->role }}</p>
 
                                                     <p><strong>Account Created At :</strong> {{ $LoggedUserInfo->created_at}}</p>
 
