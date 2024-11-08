@@ -38,13 +38,13 @@
                     <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
                     <i class="fas fa-bell mx-0"></i>
 
-                    </a>                  
-                    
+                    </a>
+
                  <b>   <span id="notificationCount" class="count">&nbsp;  </span> <!-- Initial value here -->
                  </b>
                     <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
                         <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
-                       
+
                         <a class="dropdown-item preview-item">
                             <div class="preview-thumbnail">
                                 <div class="preview-icon bg-success">
@@ -54,11 +54,11 @@
                             <div class="preview-item-content">
                                 <h6 class="preview-subject font-weight-normal">New Message</h6>
                                 <p class="font-weight-light small-text mb-0 text-muted">
-                                   
+
                                 </p>
                             </div>
                         </a>
-                      
+
                     </div>
                 </li>
                 <li class="nav-item nav-profile dropdown">
@@ -90,7 +90,7 @@
         </div>
     </nav>
 
-    
+
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         var notificationCount = document.getElementById('notificationCount');
